@@ -1,0 +1,138 @@
+.wire-grid-box .bg-gray-50 {
+    background-color: #fff;
+}
+
+.wire-grid-box th {
+    color: #3c4858;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    border-bottom-width: 1px;
+    border-top-width: 0;
+    padding: 11px !important;
+}
+
+.wire-grid-box .table-actions {
+    display: flex;
+    align-items: center;
+}
+
+.wire-grid-box .table-responsive {
+    background: #fff;
+    border-radius: 11px;
+    box-shadow: 0 10px 30px 0 rgb(24 28 33 / 5%);
+}
+
+.table-striped tbody tr:nth-of-type(2n+1) {
+    background-color: transparent;
+}
+
+.wire-grid-box .text-muted {
+    padding: 15px;
+}
+
+.wire-grid-box .form-control {
+    color: #333;
+    border: 1px solid #fff;
+}
+
+.wire-grid-box button.btn.dropdown-toggle {
+    background: #fff;
+    color: #333;
+}
+
+.wire-grid-box .btn-outline-secondary, .wire-grid-box .btn-outline-secondary:hover,
+.wire-grid-box .btn-outline-secondary:focus, .wire-grid-box .btn-outline-secondary:active,
+.wire-grid-box .btn-outline-secondary:not(:disabled):not(.disabled):active, .wire-grid-box .btn-outline-secondary:not(:disabled):not(.disabled).active {
+    color: #333 !important;
+    background: #fff !important;
+    border-color: transparent;
+}
+
+.table-actions button {
+    background: transparent;
+    -webkit-appearance: none !important;
+    border: none !important;
+    padding: 0 !important;
+}
+
+.table-actions a, .table-actions form {
+    margin: 0 5px;
+}
+
+.table-actions a, .table-actions form button {
+    color: #333 !important;
+}
+
+.wire-grid-box ul.dropdown-menu .form-control {
+    border: 1px solid #ddd;
+}
+
+.wire-grid-box .mb-3 small {
+    font-size: 12px;
+    color: #333;
+}
+
+.wire-grid-box .badge-pill.badge-light {
+    background: #ccc;
+    margin-left: 5px;
+}
+
+.white-box .wire-grid-box .form-control {
+    border-color: #ccc;
+}
+
+.white-box .wire-grid-box .table-responsive {
+    border-radius: 0;
+    box-shadow: none;
+}
+
+.wire-grid-box .form-control {
+    background: #eee;
+}
+
+.wire-grid-box button.btn.dropdown-toggle {
+    color: #333 !important;
+    background: #eee !important;
+    height: 38px;
+}
+
+.wire-grid-box {
+    padding-top: 15px;
+}
+
+.btn-group .btn {
+    color: #fff !important;
+    margin: 0;
+}
+
+.wire-grid-box ul.pagination {
+    margin-top: 15px;
+}
+
+.wire-grid-box .col-12.col-md-6.text-center.text-md-right.text-muted {
+    text-align: right !important;
+    margin-top: 15px;
+}
+
+button.dropdown-item.btn.text-center {
+    color: #333 !important;
+    border: none !important;
+    padding: 0;
+}
+
+.wire-grid-box .dropdown-menu {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #dedede;
+    box-shadow: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .wire-grid-box .col-12.col-md-6.text-center.text-md-right.text-muted {
+        text-align: center !important;
+        margin: 0;
+    }
+}
+

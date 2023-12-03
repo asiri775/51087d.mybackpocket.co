@@ -1,0 +1,46 @@
+body{
+    padding: 35px;
+}
+table {
+
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+}
+
+table td, .akDataTable table th {
+    border: 1px solid #000;
+    padding: 8px;
+}
+
+table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    color: white;
+}
+tfoot{
+    display: block;
+    width: 100% !important;
+}
+
+
+.table-responsive-block thead {
+    display: table-header-group !important;
+}
+
+.table-responsive-block thead {
+    display: table-row-group !important;
+}
+
+.table-responsive-block tfoot {
+    display: table-footer-group !important;
+}
+
+.table-responsive-block tr {
+    display: table-row !important;
+}
+
+.table-responsive-block th, .table-responsive-block td {
+    display: table-cell !important;
+}
+

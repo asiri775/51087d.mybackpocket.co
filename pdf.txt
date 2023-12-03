@@ -1,0 +1,3 @@
+sudo apt-get install texlive-extra-utils
+apt-get install poppler-utils
+composer require spatie/pdf-to-text
